@@ -1,0 +1,56 @@
+# Password Checker
+
+This is a Python application that allows users to check if their entered password is unique or a common password. The program reads a list of common passwords from a file (`passwords.txt`) and informs the user if their input matches any of these common passwords.
+
+## Features
+- Continuously prompts the user to enter passwords until they decide to exit.
+- Checks if the entered password is found in the list of common passwords.
+- Displays the position of the password in the common passwords list if it is not unique.
+- Indicates when a password is unique.
+- Handles empty input gracefully.
+
+## How to Use
+1. Clone this repository or download the `main.py` and `passwords.txt` files.
+2. Make sure you have Python 3 installed on your machine.
+3. Run the program using the following command:
+   ```bash
+   python main.py
+Enter a password when prompted.
+Type exit to quit the program.
+Example Usage
+bash
+Copy code
+Enter a Password (or type "exit" to quit): password123
+password123: Is Not Unique & is the (#5) most common password!
+
+Enter a Password (or type "exit" to quit): myUniquePassword
+myUniquePassword: Is Unique
+
+Enter a Password (or type "exit" to quit): exit
+Goodbye!
+Requirements
+Python 3.x
+File Structure
+main.py: The main Python script that runs the application.
+passwords.txt: A plain text file containing a list of common passwords, one per line.
+Contributing
+If you’d like to contribute to this project:
+
+Fork the repository.
+Create a new branch for your feature or fix.
+Commit your changes and push them to your fork.
+Create a pull request to this repository.
+License
+This project is open-source and available under the MIT License.
+
+Author
+Developed by [Your Name]. Feel free to reach out with any questions or suggestions!
+
+vbnet
+Copy code
+
+### What You Need to Do:
+1. Replace `[Your Name]` with your name or username.
+2. Add a `passwords.txt` file containing the common passwords you'd like the program to check.
+
+Let me know if you need help adding any more sections or customizing this! 😊
